@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #FEF7DC, #C2B8A3);
+  margin: 0 auto;
+  text-align: center;
+  font-family: Roboto Mono;
+  font-size: 1.15rem;
+}
+
+
+/* TITLE-IMAGE */
+
+.header {
+  color: #005555;
+  text-shadow: 2px 2px 3.5px black;
+  font-family: Roboto Mono;
+}
+
+.header-title {
+  margin: 3%;
+}
+
+.title-img {
+  height: auto;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/* TITLE IMAGE MEDIA QUERRIES */
+
+@media screen and (orientation: landscape) {
+
+  .header-title {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 48%;
+    margin-right: auto;
+    color: #E6DDC4;
+    font-family: Roboto Mono;
+    text-shadow: 5px 5px 15px black;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1000px) and (orientation: landscape) {
+
+  .header-title {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 49.5%;
+    margin-right: auto;
+    color: #E6DDC4;
+    font-family: Roboto Mono;
+    text-shadow: 5px 5px 15px black;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1400px) and (orientation: landscape) {
+
+  .header-title {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 50%;
+    margin-right: auto;
+    color: #E6DDC4;
+    font-family: Roboto Mono;
+    text-shadow: 5px 5px 15px black;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+}
+
+
+/* CONTENT PARTS */
+
+
+.content-title {
+  text-align: center;
+  margin: 10%;
+}
+
+
+
+.content-part1 {
+  border-radius: 7px;
+  margin: auto 5%;
+  padding: 1.5% 5%;
+  background-color: #D8E9A8;
+}
+
+.quotes {
+  background-image: linear-gradient(#A1E3D8, #069A8E);
+  margin: 10% 5%;
+  padding: 3% 5% 0;
+  border-radius: 7px;
+}
+
+footer {
+  background-color: #CEAB93;
+  font-size: 1rem;
+  margin-top: 10%;
+}
